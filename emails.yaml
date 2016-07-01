@@ -1,0 +1,4 @@
+# add emails which you want to receive warnings about IP
+# changes here
+emails:
+  - woody1573@163.com
