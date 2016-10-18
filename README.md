@@ -33,3 +33,14 @@ Add the following line:
 ```bash
 */5 * * * * /usr/bin/python /path/to/runner.py
 ```
+Run the following command to make sure the task is reloaded:
+
+```bash
+sudo service cron reload
+```
+
+The logs of cron is included in `/var/log/syslog`. You can list those logo infomation using:
+
+``bash
+sudo grep CRON /var/log/syslog
+```
