@@ -31,5 +31,5 @@ crontab -e
 Add the following line:
 
 ```bash
-*/5 * * * * /opt/ippywatchdog.py
+*/5 * * * * /usr/bin/python /path/to/runner.py
 ```
